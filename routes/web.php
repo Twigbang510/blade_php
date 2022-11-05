@@ -17,6 +17,7 @@ use App\Http\Controllers\PageController;
 */
 
 Route::get('/index', [PageController::class, 'getIndex']);
+Route::get('/type', [PageController::class, 'getLoaiSp']);
 
 // Route::post('/', [FormController::class, 'displayInfo']);
 
